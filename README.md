@@ -2,14 +2,15 @@
 
 - ✨pure-ts-scss-playground ✨
 
-## Installation
+### Installation
 
-Dillinger requires [Node.js](https://nodejs.org/) v10+ to run.
+Requires [Node.js](https://nodejs.org/), npm or yarn.
 
-Install the dependencies and devDependencies and start the server.
+### Run
 
 ```sh
-cd dillinger
-npm i
-node app
+git clone https://github.com/Vinci-da-Gama/pure-ts-scss-2023.git
+cd pure-ts-scss-2023
+npm install or yarn install
+npm start or yarn start
 ```
