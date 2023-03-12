@@ -11,3 +11,4 @@ webpack.config.ts
 src/_assets
 _source_tsconfig.json
 .prettierrc.json
+**/*.log
