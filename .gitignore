@@ -1,12 +1,13 @@
 **/*.txt
 .vscode
 .idea/
-postcss.config.js
+postcss.config.ts
 node_modules
 dist/
 build/
 .DS_Store
-webpack.config.js
+webpack.config.ts
 .eslintrc.json
 src/_assets
 _source_tsconfig.json
+.prettierrc.json
