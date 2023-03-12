@@ -4,7 +4,7 @@
 
 ### Installation
 
-Requires [Node.js](https://nodejs.org/), npm or yarn.
+Requires [Node.js](https://nodejs.org/), webpack, npm or yarn.
 
 ### Run
 
