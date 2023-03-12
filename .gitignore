@@ -1,0 +1,12 @@
+**/*.txt
+.vscode
+.idea/
+postcss.config.js
+node_modules
+dist/
+build/
+.DS_Store
+webpack.config.js
+.eslintrc.json
+src/_assets
+_source_tsconfig.json
