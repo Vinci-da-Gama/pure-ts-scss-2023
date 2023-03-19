@@ -68,3 +68,38 @@ h1 {
   font-size: 30px;
 }
 //////////////////////// END flip card front to back 3d effect
+
+/* Hide the default checkbox or radio button */
+input#purecss-checkbox, input#purecss-radio {
+  display: none;
+}
+
+input[type="checkbox"] + label::before, input#purecss-radio + label.radio::before {
+  content: "";
+  display: inline-block;
+  vertical-align: text-bottom;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  margin-right: 10px; // margin between radio or checkbox and label
+  pointer-events: none;
+  outline: 2px solid blue;
+}
+
+label.checkbox:before {
+  border-radius: 3px;
+}
+
+label.radio:before {
+  border-radius: 50%;
+}
+
+label.checkbox, label.radio {
+  margin-right: 1rem; // margin gap between 2 labels
+}
+
+/* Style the custom checkbox or radio button when checked */
+input#purecss-checkbox:checked + label.checkbox:before, input#purecss-radio:checked + label.radio:before {
+  background-color: #333;
+}
